@@ -2,7 +2,19 @@
 
 A crate that allows you to segfault for cases where you just need to
 
+## Install
+
+```sh
+# to use in a project
+$ cargo add segfault
+
+# to use as a binary
+$ cargo install segfault
+```
+
 ## Usage
+
+### Programatically
 
 ```rs
 use segfault;
@@ -12,6 +24,8 @@ pub fn main() {
 }
 ```
 
-## Command
+### As Command
 
-This crate also comes with a binary, so you can just install it and run the `segfault` command whenever you feel like it
+```sh
+$ segfault
+```
