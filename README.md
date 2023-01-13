@@ -20,7 +20,8 @@ $ cargo install segfault
 use segfault;
 
 pub fn main() {
-    segfault::segfault();
+    let ptr: *mut i32 = std::ptr::null_mut();
+    segfault::segfault_safe(ptr);
 }
 ```
 
