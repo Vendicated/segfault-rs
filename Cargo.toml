@@ -8,7 +8,7 @@ description = "Segfault, for when you just need to"
 homepage = "https://github.com/Vendicated/segfault-rs"
 repository = "https://github.com/Vendicated/segfault-rs"
 documentation = "https://github.com/Vendicated/segfault-rs/blob/main/README.md"
-readme = "https://github.com/Vendicated/segfault-rs/blob/main/README.md"
+readme = "README.md"
 
 [dependencies]
 
