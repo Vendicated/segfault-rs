@@ -8,7 +8,7 @@ A crate that allows you to segfault for cases where you just need to
 # to use in a project
 $ cargo add segfault
 
-# to use as a binary
+# to use as a command
 $ cargo install segfault
 ```
 
