@@ -29,3 +29,9 @@ pub fn main() {
 ```sh
 $ segfault
 ```
+
+## Support This Project
+
+To help me make more useful crates, consider [sponsoring me](https://github.com/sponsors/Vendicated)
+
+Proudly powered by JetBrains
