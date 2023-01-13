@@ -1,0 +1,21 @@
+[package]
+name = "segfault"
+authors = ["Vendicated <vendicated+crates@riseup.net>"]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Segfault, for when you just need to"
+homepage = "https://github.com/Vendicated/segfault-rs"
+repository = "https://github.com/Vendicated/segfault-rs"
+documentation = "https://github.com/Vendicated/segfault-rs/blob/main/README.md"
+readme = "https://github.com/Vendicated/segfault-rs/blob/main/README.md"
+
+[dependencies]
+
+[lib]
+name = "segfault"
+path = "src/lib.rs"
+
+[[bin]]
+name = "segfault"
+path = "src/bin.rs"
