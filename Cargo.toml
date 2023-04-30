@@ -11,6 +11,7 @@ documentation = "https://github.com/Vendicated/segfault-rs/blob/main/README.md"
 readme = "README.md"
 
 [dependencies]
+libc = "0.2.142"
 
 [lib]
 name = "segfault"
