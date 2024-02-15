@@ -24,6 +24,16 @@ pub fn main() {
 }
 ```
 
+Or using a segfault implementation that only uses safe code:
+
+```rs
+use segfault;
+
+pub fn main() {
+    segfault::segfault_safe();
+}
+```
+
 ### As Command
 
 ```sh
