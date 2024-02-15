@@ -5,3 +5,9 @@ pub fn segfault() -> ! {
         std::hint::unreachable_unchecked()
     }
 }
+
+mod safe;
+
+pub fn segfault_safe() -> ! {
+    safe::segfault()
+}
